@@ -1,0 +1,287 @@
+@charset "utf-8";
+@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Noto+Sans&display=swap');
+
+.navbar-container{
+    display: flex;
+    justify-content: flex-start;
+    height: auto;
+    font-family: lobster;
+}
+
+body{
+    background: linear-gradient( rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6) ), url(https://imagesvc.meredithcorp.io/v3/mm/image?url=https%3A%2F%2Fstatic.onecms.io%2Fwp-content%2Fuploads%2Fsites%2F43%2F2020%2F08%2F20%2FGettyImages-1165807395-2000.jpg&q=85) no-repeat fixed;
+    background-repeat: no-repeat !important;
+    background-position: center top !important;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+}
+
+#pic>p{
+    margin-top: 4em;
+}
+
+.navbar-container{
+    overflow: hidden;
+    text-decoration: none;
+}
+
+.navbar{
+    display:flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100vw;
+    height: auto;
+    text-align: center;
+    background-color:rgb(105, 47, 24);
+    color: burlywood;
+}
+
+.button{
+    width: 10em;
+    height: auto;
+    padding-top: 2em;
+    padding-bottom: 2em;
+    transition-duration: 0.4s;
+    
+}
+      
+.button:hover {
+    background-color: burlywood;
+    color: rgb(105, 47, 24);
+}
+
+.bhome{
+    background-color:rgb(77, 34, 17);
+    color: black;
+    border: 2px solid rgb(105, 47, 24) ;
+    border-radius: 10px;
+}
+
+.bhome>p{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    color:whitesmoke;
+}
+
+.bmenu{
+    background-color:rgb(77, 34, 17);
+    color: black;
+    border: 2px solid rgb(105, 47, 24) ;
+    border-radius: 10px;
+}
+
+.bmenu>p{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    color:whitesmoke;
+}
+
+.babout{
+    background-color:rgb(77, 34, 17);
+    color: black;
+    border: 2px solid rgb(105, 47, 24) ;
+    border-radius: 10px;
+}
+
+.babout>p{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    color:whitesmoke;
+}
+
+.bOrder{
+    background-color:rgb(77, 34, 17);
+    color: black;
+    border: 2px solid rgb(105, 47, 24) ;
+    border-radius: 10px;
+}
+
+.bOrder>p{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    color:whitesmoke;
+}
+
+.bloc{
+    background-color:rgb(77, 34, 17);
+    color: black;
+    border: 2px solid rgb(105, 47, 24) ;
+    border-radius: 10px;
+}
+
+.bloc>p{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    color:whitesmoke;
+}
+
+.bcontacts{
+    background-color:rgb(77, 34, 17);
+    color: black;
+    border: 2px solid rgb(105, 47, 24) ;
+    border-radius: 10px;
+}
+
+.bcontacts>p{
+    text-decoration: none;
+    padding: 0;
+    margin: 0;
+    color:whitesmoke;
+}
+
+.logo{
+    height: 150px;
+    width: 150px;
+}
+
+.textborder>p{
+    text-decoration: none;
+    font-size: 1.4em;
+    color:whitesmoke;
+    font-weight:500;
+}
+
+.content1{
+    width: 25vw;
+    font-size: 50px;
+    margin-left: 2.5em;
+    margin-right: 0;
+    font-family: lobster;
+}
+
+.textborder{
+    text-shadow: -2px 0 black, 0 2px black, 2px 0 black, 0 -2px black;
+}
+
+.bestsellers{
+    display: inline-block;
+    background: url(https://www.roosterbrother.com/wp-content/uploads/2017/06/coffee-background-top-1.jpg) center no-repeat;
+    background-size: 75vw 80vh;
+    border-style: none;
+    margin: auto;
+    padding: 5em;
+    height: auto;
+    width: 50vw;
+}
+
+#pic2{
+    float: right;
+}
+
+#bestsellertext>p{
+    text-align: center;
+    padding: 0;
+    margin: 0;
+    font-size: 2em;
+}
+
+#bestsellertext{
+    display: flex;
+    justify-content: center;
+}
+
+.bscontent{
+    display: inline-block;
+}
+
+.bscontent>img{
+    box-shadow: 5px 10px 5px rgba(0, 0, 0, 0.6);
+    border:none;
+    border-radius: 25px;
+}
+
+.bscontent>p{
+    font-size: 1.5em;
+    text-align: center;
+}
+
+.bspic{
+    max-width: 350px;
+    margin-top: 20px;
+    margin-bottom: -20px;
+}
+
+.footer{
+    width: 100vw;
+    height: auto;
+    background-color: rgba(41, 19, 5, 0.616);
+    font-family: lobster;
+}
+
+.footercontent{
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+    width: 100vw;
+}   
+
+.flinks{
+    color: whitesmoke; 
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+.logofooter{
+    display: inline-block;
+}
+
+.logofooter>img{
+    max-height: 100px; 
+    max-width: 100px; 
+}
+
+.contactinfo{
+    color: whitesmoke; 
+    display: inline-block;
+}
+
+.content-container{
+    display: flex;
+    align-items: center;
+    font-family: lobster;
+}
+
+#clickhere{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin:0;
+    padding:0;
+}
+
+#clickbutton>p{
+    font-size: 1em;
+    font-family: lobster;
+}
+
+#clickhere>button{
+    height: auto; 
+    width: 7em; 
+    text-align: center; 
+    padding: 0; 
+    border-radius: 20px; 
+    font-size: 0.50em;
+    transition-duration: 0.4s;
+    background-color: whitesmoke;
+    border: 0px;
+}
+
+#clickhere>button:hover{
+    background-color: burlywood;
+    color: rgb(105, 47, 24);
+}
+
+
+.language{
+    float: right;
+    margin-left: 20vw;
+}
