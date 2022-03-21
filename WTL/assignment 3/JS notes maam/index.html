@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Introduction to JavaScript</title>
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+<body>
+    <div id="test-id" class="main-content">
+        <button class="btn-property" onclick="changeDisp()">Click me!!</button>
+        <p id="demo">Lorem ipsum dolor sit amet.</p>
+        <p id="demo1">Lorem ipsum dolor sit amet consectetur adipisicing elit. Quasi, labore.</p>
+        <button class="btn-property" onclick="test()">Practice</button>
+
+        <form name="mainForm">
+            First Number: <input type="text" name="textBox1" /> <br/>
+            Second Number: <input type="text" name="textBox2" /> <br/>
+            <input type="button" class="btn-property" value="Process" onclick="calcSum()" />
+            
+            <input type="text" name="textBoxSum"
+              readonly="readonly"/>
+            <br> 
+            <input type="color" onchange="changeColor(this)"> <br>
+            <input type="button" class="button" onclick="displayName()" value="Enter Name !!">
+            <p id="displayText"></p><br>            
+        </form>
+        <button class="btn-property" onclick=arrayOp()>Arrays</button>
+    </div>
+    
+
+
+    <script src="/practice-js.js"></script>
+    <script src="arrays.js"></script>
+    
+</body>
+</html>
